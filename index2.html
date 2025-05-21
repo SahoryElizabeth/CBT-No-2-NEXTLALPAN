@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Principal</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .info-detalle {
+            display: none; /* Ocultamos la información por defecto */
+            margin-top: 20px;
+            text-align: left;
+            border: 1px solid #ccc;
+            padding: 15px;
+            border-radius: 5px;
+            background-color: #94ccd3;
+        }
+
+        /* Estilo para mostrar la información cuando el "anchor" está activo */
+        .info-detalle:target {
+            display: block;
+        }
+
+        .boton-enlace {
+            padding: 12px 25px;
+            background-color: #3498db;
+            color: rgb(147, 230, 233);
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1em;
+            text-decoration: none; /* Quitar el subrayado de los enlaces */
+            margin-right: 10px;
+        }
+
+        .boton-enlace:hover {
+            background-color: #2980b9;
+        }
+    </style>
+</head>
+<style>
+    .info-detalle {
+        display: none; /* Ocultamos la información por defecto */
+        margin-top: 20px;
+        text-align: left;
+        border: 1px solid #ccc;
+        padding: 15px;
+        border-radius: 5px;
+        background-color: #f9f9f9;
+        color: #000000; /* Aseguramos que el color del texto sea negro */
+    }
+
+    /* Estilo para mostrar la información cuando el "anchor" está activo */
+    .info-detalle:target {
+        display: block;
+    }
+
+    .boton-enlace {
+        padding: 12px 25px;
+        background-color: #3498db;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 1em;
+        text-decoration: none; /* Quitar el subrayado de los enlaces */
+        margin-right: 10px;
+    }
+
+    .boton-enlace:hover {
+        background-color: #82f0f0;
+    }
+
+    <style>
+    .info-detalle {
+        display: none; /* Ocultamos la información por defecto */
+        margin-top: 20px;
+        text-align: left;
+        border: 1px solid #cc9deb;
+        padding: 15px;
+        border-radius: 5px;
+        background-color: white; /* CAMBIAR AQUÍ */
+    }
+
+    /* Estilo para mostrar la información cuando el "anchor" está activo */
+    .info-detalle:target {
+        display: block;
+    }
+
+    .boton-enlace {
+        padding: 12px 25px;
+        background-color: #dd9fe9;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 1em;
+        text-decoration: none; /* Quitar el subrayado de los enlaces */
+        margin-right: 10px;
+    }
+
+    .boton-enlace:hover {
+        background-color: #2980b9;
+    }
+</style>
+</style>
+<body>
+    <h1>¡Bienvenido!</h1>
+    <p>Breve descripción o bienvenida a la página principal.</p>
+    <div class="info-escuela">
+        <h2>Sobre el CBT No. 2 Nextlalpan</h2>
+        <p>El Centro de Bachillerato Tecnológico No. 2 Nextlalpan es una institución educativa comprometida con la formación integral de sus estudiantes...</p>
+        <div class="galeria-botones">
+            <img src="img/cb.jpg" alt="Imagen del CBT" width="150">
+            <img src="img/cbt.jpg" alt="Instalaciones de la escuela" width="150">
+            <a href="#carreras" class="boton-enlace">Conoce las Carreras</a>
+            <a href="#instalaciones" class="boton-enlace">Instalaciones</a>
+        </div>
+    </div>
+
+    <div id="carreras" class="info-detalle">
+        <h2>Carreras Ofrecidas</h2>
+        <p>"El CBT No. 2, Nextlalpan ofrece las carreras de Técnico en Diseño Asistido por Computadora, Técnico en Informática y Técnico Químico industrial desarrolladas bajo el marco del Modelo Educativo para la Educación Obligatoria. Tiene un laboratorio correspondiente a cada carrera..."</p>
+    </div>
+
+    <div id="instalaciones" class="info-detalle">
+        <h2>Instalaciones</h2>
+        <p>"...Tiene un laboratorio correspondiente a cada carrera así como una plantilla de 32 docentes capacitados al 100% en el área pedagógica y profesional."</p>
+    </div>
+
+    </body>
+</html>

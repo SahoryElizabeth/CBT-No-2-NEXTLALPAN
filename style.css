@@ -1,0 +1,97 @@
+body {
+    background: linear-gradient(to bottom, #1c2833, #0e1114);
+    color: #e0e0e0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+h1.titulo {
+    font-size: 3.5em;
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+
+p {
+    font-size: 1.3em;
+    max-width: 700px;
+    padding: 0 20px;
+    line-height: 1.6;
+}
+
+#verMasBtn {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    margin-top: 20px;
+}
+
+#verMasBtn:hover {
+    background-color: #2980b9;
+}
+
+#contenidoAdicional {
+    margin-top: 30px;
+    max-width: 800px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.1); /* Fondo semitransparente */
+    border-radius: 10px;
+}
+.info-escuela {
+    background-color: white; /* Fondo blanco para la información de la escuela */
+    color: black; /* Letras negras para la información de la escuela */
+    padding: 30px;
+    border-radius: 10px;
+    margin-top: 40px;
+    text-align: center; /* Centra el texto dentro de esta sección */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    max-width: 900px;
+}
+
+.info-escuela h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.info-escuela p {
+    font-size: 1.1em;
+    line-height: 1.7;
+    margin-bottom: 25px;
+}
+
+.galeria-botones {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; /* Espacio entre imágenes y botones */
+    margin-top: 20px;
+}
+
+.galeria-botones img {
+    border-radius: 5px;
+}
+
+.boton-info {
+    padding: 12px 25px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    text-decoration: none; /* Para quitar subrayado si los conviertes en enlaces */
+}
+
+.boton-info:hover {
+    background-color: #2980b9;
+}
